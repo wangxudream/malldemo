@@ -79,7 +79,7 @@ public class MallPortalApplicationTests {
             public void run() {
                 System.out.println("执行任务");
                 long start = System.currentTimeMillis();
-                goodsMapper.selectForward(new GoodsResultHandler(totalSize, wb, sh, "D:\\test.xlsx"));
+                goodsMapper.selectForward(new GoodsResultHandler(totalSize, wb, sh, "D:\\demo.xlsx"));
                 long end = System.currentTimeMillis();
                 System.out.println("消耗时间ms:" + (end - start));
                 latch.countDown();
