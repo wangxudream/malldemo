@@ -13,10 +13,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @Version V1.0
  **/
 @EnableDiscoveryClient
-@SpringBootApplication
-@MapperScan("com.kataer.mall")
+@SpringBootApplication(scanBasePackages = "com.kataer.mall")
+@MapperScan("com.kataer.mall.*")
 public class MallPortalApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootApplication.class, args);
+        SpringApplication.run(MallPortalApplication.class, args);
     }
 }

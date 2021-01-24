@@ -42,7 +42,7 @@ public class MallPortalApplicationTests {
     @Test
     public void contextLoads() {
         List<Goods> goodsList = new ArrayList<>(1000);
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 100; i++) {
             Goods goods = new Goods();
             goods.setName("测试" + i);
             goodsList.add(goods);
