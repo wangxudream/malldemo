@@ -99,11 +99,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--网关-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-gateway</artifactId>
                 <version>${spring-cloud-gateway}</version>
             </dependency>
+            <!--mbg子项目-->
             <dependency>
                 <groupId>com.kataer.malldemo</groupId>
                 <artifactId>mbg</artifactId>

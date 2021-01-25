@@ -6,10 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @ClassName GatewayApplication
- * @Description: TODO
+ * @Description: 网关服务启动类
  * @Author kataer
  * @Date 2021/1/24 16:07
- * @Version V1.0
  **/
 @EnableDiscoveryClient
 @SpringBootApplication
