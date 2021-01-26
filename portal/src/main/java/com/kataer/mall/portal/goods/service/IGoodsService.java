@@ -4,9 +4,11 @@ import com.kataer.mall.model.Goods;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.apache.ibatis.session.ResultHandler;
 
+import java.util.concurrent.CountDownLatch;
+
 /**
  * <p>
- *  服务类
+ * 服务类
  * </p>
  *
  * @author kataer
@@ -14,4 +16,6 @@ import org.apache.ibatis.session.ResultHandler;
  */
 public interface IGoodsService extends IService<Goods> {
     void selectForward(ResultHandler<Goods> handler);
+
+    void testDoOrder(Long id, CountDownLatch latch);
 }

@@ -7,6 +7,9 @@ import com.kataer.mall.portal.goods.service.IGoodsService;
 import org.apache.ibatis.session.ResultHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.concurrent.CountDownLatch;
 
 /**
  * <p>
@@ -25,4 +28,21 @@ public class GoodsServiceImpl extends ServiceImpl<GoodsMapper, Goods> implements
     public void selectForward(ResultHandler<Goods> handler) {
         goodsMapper.selectForward(handler);
     }
+
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public void testDoOrder(Long id, CountDownLatch latch) {
+        try {
+            Goods goods = this.getById(id);
+            if (goods.getNum() > 0) {
+                System.out.println("size:" + goods.getNum());
+                goods.setNum(goods.getNum() - 1);
+                this.updateById(goods);
+            }
+        } finally {
+            latch.countDown();
+        }
+    }
+
+
 }
