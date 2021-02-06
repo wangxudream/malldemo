@@ -45,16 +45,18 @@
         <mybatis.version>3.5.5</mybatis.version>
         <mysql-connector.version>8.0.20</mysql-connector.version>
         <spring-data-commons.version>2.3.0.RELEASE</spring-data-commons.version>
-        <jjwt.version>0.9.1</jjwt.version>
+        <jwt.version>0.9.1</jwt.version>
         <aliyun-oss.version>2.5.0</aliyun-oss.version>
         <logstash-logback.version>5.3</logstash-logback.version>
         <admin-starter-server.version>2.2.3</admin-starter-server.version>
         <minio.version>7.1.0</minio.version>
         <knife4j.version>2.0.4</knife4j.version>
-        <nimbus-jose-jwt.version>8.16</nimbus-jose-jwt.version>
         <mall-common.version>1.0-SNAPSHOT</mall-common.version>
         <mbg.version>1.0-SNAPSHOT</mbg.version>
         <springfox-swagger.version>2.9.2</springfox-swagger.version>
+        <redis>2.2.5.RELEASE</redis>
+        <redisson.version>3.13.1</redisson.version>
+        <fastjson.version>1.2.70</fastjson.version>
     </properties>
     <!--引入包,子项目会自动引入-->
     <dependencies>
@@ -74,6 +76,12 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- JWT -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>${jwt.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -100,13 +108,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--网关-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-gateway</artifactId>
                 <version>${spring-cloud-gateway}</version>
             </dependency>
-            <!--mbg子项目-->
             <dependency>
                 <groupId>com.kataer.malldemo</groupId>
                 <artifactId>mbg</artifactId>
@@ -163,6 +169,17 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${springfox-swagger.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${redis}</version>
+            </dependency>
+            <!-- redisson -->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
             <!--okhttp-->
             <dependency>
                 <groupId>com.squareup.okhttp3</groupId>
@@ -176,9 +193,14 @@
                 <version>${hutool.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt</artifactId>
-                <version>${jjwt.version}</version>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kataer.malldemo</groupId>
+                <artifactId>common</artifactId>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
