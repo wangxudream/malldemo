@@ -1,6 +1,6 @@
 package com.kataer.mall.portal.goods.controller;
 
-import com.kataer.mall.model.Goods;
+import com.kataer.mall.mbg.model.Goods;
 import org.apache.ibatis.session.ResultContext;
 import org.apache.ibatis.session.ResultHandler;
 import org.apache.poi.ss.usermodel.Cell;

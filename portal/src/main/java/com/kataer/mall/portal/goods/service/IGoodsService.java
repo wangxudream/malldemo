@@ -1,6 +1,6 @@
 package com.kataer.mall.portal.goods.service;
 
-import com.kataer.mall.model.Goods;
+import com.kataer.mall.mbg.model.Goods;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.apache.ibatis.session.ResultHandler;
 

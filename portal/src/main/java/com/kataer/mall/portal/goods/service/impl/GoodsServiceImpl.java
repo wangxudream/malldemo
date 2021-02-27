@@ -1,8 +1,9 @@
 package com.kataer.mall.portal.goods.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.kataer.mall.mbg.model.Goods;
 import com.kataer.mall.model.*;
-import com.kataer.mall.mapper.GoodsMapper;
+import com.kataer.mall.mbg.mapper.GoodsMapper;
 import com.kataer.mall.portal.goods.service.IGoodsService;
 import org.apache.ibatis.session.ResultHandler;
 import org.springframework.beans.factory.annotation.Autowired;

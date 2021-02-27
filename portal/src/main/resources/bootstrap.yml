@@ -23,5 +23,3 @@ spring:
         file-extension: yml
         prefix: mall-protal
 ---
-
-

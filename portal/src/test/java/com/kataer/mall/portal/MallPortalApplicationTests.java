@@ -1,14 +1,10 @@
 package com.kataer.mall.portal;
 
-import com.kataer.mall.mapper.GoodsMapper;
-import com.kataer.mall.model.Goods;
+import com.kataer.mall.mbg.mapper.GoodsMapper;
+import com.kataer.mall.mbg.model.Goods;
 import com.kataer.mall.portal.goods.controller.GoodsResultHandler;
-import com.kataer.mall.portal.goods.service.IGoodsService;
 import com.kataer.mall.portal.goods.service.impl.GoodsServiceImpl;
-import com.sun.xml.internal.ws.message.saaj.SAAJHeader;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.session.ResultContext;
-import org.apache.ibatis.session.ResultHandler;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -19,13 +15,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.beans.Transient;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 
 @Slf4j

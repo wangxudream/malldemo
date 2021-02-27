@@ -3,7 +3,7 @@ package com.kataer.mall.portal.goods.controller;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelWriter;
 import com.alibaba.excel.write.metadata.WriteSheet;
-import com.kataer.mall.model.Goods;
+import com.kataer.mall.mbg.model.Goods;
 import org.apache.ibatis.session.ResultContext;
 import org.apache.ibatis.session.ResultHandler;
 

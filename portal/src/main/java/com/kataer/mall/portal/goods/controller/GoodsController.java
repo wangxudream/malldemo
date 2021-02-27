@@ -1,7 +1,7 @@
 package com.kataer.mall.portal.goods.controller;
 
 
-import com.kataer.mall.model.Goods;
+import com.kataer.mall.mbg.model.Goods;
 import com.kataer.mall.portal.goods.service.impl.GoodsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

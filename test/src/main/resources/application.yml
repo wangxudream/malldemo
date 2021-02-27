@@ -5,3 +5,17 @@ spring:
     name: mall-test
   profiles:
     active: dev
+
+---
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        prefix: mall-test
+---
+
