@@ -12,6 +12,16 @@
     <artifactId>gateway</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.kataer.malldemo</groupId>
+            <artifactId>common</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-web</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
         <!--服务注册-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
