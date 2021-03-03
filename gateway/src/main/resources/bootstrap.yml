@@ -4,9 +4,6 @@ spring:
   application:
     name: mall-gateway
   cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
     gateway:
       discovery:
         locator:
@@ -18,5 +15,21 @@ spring:
             - Path=/test/hello/**
         - id: mall-portal
           uri: lb://mall-portal
+#          uri: localhost:8083
           predicates:
             - Path=/goods/**
+---
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        prefix: mall-gateway
+---
+
+
+

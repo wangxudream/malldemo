@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * @ClassName MallPortalApplication
+ * @ClassName DemoApplication
  * @Description: TODO
  * @Author kataer
  * @Date 2021/1/16 20:45
@@ -16,7 +16,6 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-@ComponentScan(value = "com.kataer.mall.*")
 public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);

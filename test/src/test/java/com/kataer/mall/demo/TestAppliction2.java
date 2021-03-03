@@ -1,17 +1,17 @@
-package com.test;
+package com.kataer.mall.demo;
 
-import com.kataer.mall.demo.DemoApplication;
 import com.kataer.mall.demo.config.ConfigA;
 import com.kataer.mall.demo.config.ConfigB;
-import com.kataer.mall.demo.config.SpringUtils;
 import com.kataer.mall.demo.config.SpringUtils2;
 import com.kataer.mall.demo.service.AspectService;
 import com.kataer.mall.demo.service.AsyncService;
+import com.kataer.mall.demo.config.SpringUtils;
 import com.kataer.mall.mbg.config.ConfigC;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
@@ -38,6 +38,7 @@ public class TestAppliction2 {
 
     @Autowired
     private AspectService aspectService;
+
 
     @Test
     public void testImport() {

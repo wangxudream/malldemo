@@ -3,8 +3,10 @@ package com.kataer.mall.gateway.filter;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
@@ -16,6 +18,7 @@ import reactor.core.publisher.Mono;
  * @Date 2021/1/24 21:34
  * @Version V1.0
  **/
+//@Component
 public class AuthGlobalFilter implements GlobalFilter, Ordered {
     /**
      * 认证信息Http请求头

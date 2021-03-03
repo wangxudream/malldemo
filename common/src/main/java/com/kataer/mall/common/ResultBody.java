@@ -24,6 +24,9 @@ public class ResultBody<T> {
         this.data = data;
     }
 
+    public static ResultBody success() {
+        return new ResultBody<>(ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMsg(), null);
+    }
 
     public static <T> ResultBody<T> success(T data) {
         return new ResultBody<>(ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMsg(), data);

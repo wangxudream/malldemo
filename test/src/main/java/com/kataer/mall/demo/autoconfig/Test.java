@@ -1,4 +1,4 @@
-package com.test;
+package com.kataer.mall.demo.autoconfig;
 
 public class Test {
     public Test() {

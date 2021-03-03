@@ -1,25 +1,35 @@
 server:
-  port: 8080
+  port: 8083
 spring:
   application:
     name: mall-portal
-  profiles:
-    active: dev
-  datasource:
-    url: jdbc:mysql://localhost:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: 1234qwer!
-
+    profiles:
+      active: dev
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: 1234qwer!
+#  redis:
+#    useMyCluster: false
+#    cluster:
+#      nodes: 127.0.0.1:6379
+#    host: 127.0.0.1
+#    port: 6379
+#
+#jwt:
+#  config:
+#    key: 1234qwer
+#    ttl: 1800000
 ---
 spring:
   profiles: dev
   cloud:
     nacos:
       discovery:
-        server-addr: http://localhost:8848
+        server-addr: localhost:8848
       config:
-        server-addr: http://localhost:8848
+        server-addr: localhost:8848
         file-extension: yml
-        prefix: mall-protal
+        prefix: mall-portal
 ---
