@@ -1,5 +1,7 @@
 package com.kataer.mall.demo;
 
+import com.kataer.mall.demo.condition.Child;
+import com.kataer.mall.demo.condition.Person;
 import com.kataer.mall.demo.config.ConfigA;
 import com.kataer.mall.demo.config.ConfigB;
 import com.kataer.mall.demo.config.SpringUtils2;
@@ -18,6 +20,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Map;
+
 @RunWith(SpringRunner.class)
 @Slf4j
 @ActiveProfiles("dev")
@@ -32,6 +36,10 @@ public class TestAppliction2 {
 
     @Autowired
     private ConfigC configC;
+
+    //允许注入的对象为null
+    @Autowired(required = false)
+    private Child child;
 
     @Autowired
     private AsyncService asyncService;
@@ -70,6 +78,22 @@ public class TestAppliction2 {
     @Test
     public void testParamCheck() {
         aspectService.testParamCheck("");
+    }
+
+
+    @Test
+    public void testCondition() {
+        //{bill=Person(name=bill, age=80), linus=Person(name=linus, age=48)}
+        //{bill=Person(name=bill, age=80)}
+        Map<String, Person> persons = SpringUtils.getApplicationContext().getBeansOfType(Person.class);
+        System.out.println(persons);
+    }
+
+    @Test
+    public void testConditionOnBean() {
+        System.out.println("child:" + child);
+        Object child2 = SpringUtils.getApplicationContext().getBean("child2");
+        System.out.println("child2:" + child2);
     }
 
 }

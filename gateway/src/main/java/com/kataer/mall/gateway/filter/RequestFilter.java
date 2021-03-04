@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
@@ -23,12 +24,11 @@ public class RequestFilter implements GlobalFilter, Ordered {
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         long beginTime = System.currentTimeMillis();
         ServerHttpRequest request = exchange.getRequest();
-        String path = request.getURI().getPath();
+        String url = request.getPath().pathWithinApplication().value();
         exchange.getAttributes().put("beginTime", beginTime);
-        log.info("request time {},path {}", beginTime, path);
+        log.info("request time {},path {}", beginTime, url);
         return chain.filter(exchange);
     }
-
 
     @Override
     public int getOrder() {

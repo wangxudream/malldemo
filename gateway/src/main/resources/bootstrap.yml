@@ -15,9 +15,10 @@ spring:
             - Path=/test/hello/**
         - id: mall-portal
           uri: lb://mall-portal
-#          uri: localhost:8083
           predicates:
-            - Path=/goods/**
+            - Path=/portal/goods/**,/portal/user/**
+          filters:
+            - StripPrefix=1
 ---
 spring:
   profiles: dev

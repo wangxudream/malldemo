@@ -5,60 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c01cbe3-392b-4c53-b7b5-bffbb846698f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/model/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/model/UserVoThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/ResponseFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/circle/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/circle/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/ImportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/constrant/Constrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/config/ValidUrlsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/ConditionBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/LinuxCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/WindowsCondition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/ResultBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/ResultBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/BaseRedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/BaseRedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/FastJson2JsonRedisSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/FastJson2JsonRedisSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/PropertiesReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedisConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedisConfigProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedissonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedissonConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/util/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/AuthGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/MallPortalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/MallPortalApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portal/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/PayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/TestCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/TestCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/aspect/ParamCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/aspect/ParamCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/aspect/ParamCheckAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/aspect/ParamCheckAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/AsyncExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/AsyncExecutorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/ConfigA.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/ConfigA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/ConfigB.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/ConfigB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SpringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SpringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SpringUtils2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SpringUtils2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/service/AspectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/service/AspectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/service/AsyncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/service/AsyncService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/test/java/com/test/ImportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/autoconfig/ImportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/test/java/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/autoconfig/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/test/java/com/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/test/java/com/test/TestAppliction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/TestAppliction2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/TestAppliction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/TestAppliction2.java" afterDir="false" />
     </list>
     <list id="4f431a3d-aab4-4eef-946f-fe7476eaa074" name="不提交" comment="不提交">
       <change afterPath="$PROJECT_DIR$/mp/mp.iml" afterDir="false" />
@@ -89,67 +52,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/Config.java">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/AuthGlobalFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="-70">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2921#2922#0" expanded="true" />
+                <element signature="e#2945#2946#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/MallPortalApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#840#841#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar!/io/swagger/annotations/ApiOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -157,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+            <state relative-caret-position="578">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,22 +77,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/WebMvcConfig.java">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="81" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="578">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/config/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,20 +100,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-136">
               <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/AuthGlobalFilter.java">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/config/ValidUrlsProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="24" />
               <folding>
-                <element signature="e#1276#1277#0" expanded="true" />
-                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,26 +121,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/ResponseFilter.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="559">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="211" selection-start-line="211" selection-end-line="216" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,50 +185,19 @@
         <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="23" />
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedissonConfig.java">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/ResponseFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="318">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/util/JwtUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/filter/GlobalFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/annotation/Annotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="125" column="6" lean-forward="true" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -300,11 +213,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mybatis-plus.version</find>
-      <find>pagehelper</find>
-      <find>IGoodsService</find>
-      <find>SqlSession</find>
-      <find>mapperProxyFactory.newInstance</find>
       <find>size</find>
       <find>jwt</find>
       <find>新关注用户</find>
@@ -321,7 +229,6 @@
       <find>WebMvcConfigurer</find>
       <find>jwt.version</find>
       <find>jjwt</find>
-      <find>mall-portal</find>
       <find>BaseRedisConfig</find>
       <find>使用自定义的FastJson序列化</find>
       <find>RedissonAutoConfiguration</find>
@@ -330,6 +237,12 @@
       <find>RefreshScope</find>
       <find>importRegistry</find>
       <find>Swagger</find>
+      <find>common</find>
+      <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</find>
+      <find>null</find>
+      <find>defa</find>
+      <find>default</find>
+      <find>mall-portal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -338,19 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SpringUtils.java" />
-        <option value="$PROJECT_DIR$/test/src/test/java/com/test/ImportTest.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/Config.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SysAsycExcutorConfig.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SysAsycExecutorConfig.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SysAsyncExecutorConfig.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/AsyncExecutorConfig.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/service/AsyncService.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/aspect/ParamCheck.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/aspect/ParamCheckAspect.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/service/AspectService.java" />
-        <option value="$PROJECT_DIR$/test/src/test/java/com/test/TestAppliction2.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/circle/B.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/circle/A.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/test/DemoApplication.java" />
         <option value="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/ImportTest.java" />
@@ -362,8 +262,6 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/model/UserVoThreadLocal.java" />
         <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/service/impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/ResultBody.java" />
-        <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/PropertiesReader.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/FastJson2JsonRedisSerializer.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedissonConfig.java" />
@@ -374,21 +272,36 @@
         <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/MallPortalApplication.java" />
         <option value="$PROJECT_DIR$/portal/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/TestAppliction2.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/ConfigA.java" />
-        <option value="$PROJECT_DIR$/test/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/test/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/portal/pom.xml" />
         <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/Config.java" />
-        <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserController.java" />
         <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserInfo.java" />
         <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/RequestFilter.java" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/ResponseFilter.java" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/ResultCode.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Person.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/MyCondtion.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/LinuxCondition.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/WindowsCondition.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Mother.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Child.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/ConditionBean.java" />
+        <option value="$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/TestAppliction2.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/config/Config.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/config/ValidUrlsProperties.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/constrant/Constrant.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/AuthGlobalFilter.java" />
+        <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/HelloController.java" />
       </list>
     </option>
   </component>
@@ -397,11 +310,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="portal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="portal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -420,6 +333,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -427,6 +341,41 @@
             <path>
               <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
@@ -553,13 +502,57 @@
               <item name="portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="malldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,8 +563,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614765886395" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../itstack-demo-design" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614862728464" />
+    <property name="last_opened_file_path" value="D:/download/Spire.Doc.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -581,9 +574,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentDirs\malldemo\mbg\src\main\resources\com.kataer.mall.mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.kataer.mall.demo" />
       <recent name="com.kataer.mall.mbg" />
+      <recent name="com.kataer.mall.portal" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kataer.mall.demo.condition" />
+      <recent name="test" />
+      <recent name="" />
       <recent name="com.kataer.mall.portal" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -592,14 +594,6 @@
       <recent name="F:\gitproject\malldemo\test\src\main\resources\META-INF" />
       <recent name="F:\gitproject\malldemo\test\src\main\resources" />
       <recent name="F:\gitproject\malldemo\test\src\main\java\com\kataer\mall\demo\config" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test" />
-      <recent name="" />
-      <recent name="com.kataer.mall.portal" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DevelopmentDirs\malldemo\mbg\src\main\resources\com.kataer.mall.mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -614,7 +608,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallPortalApplication">
+  <component name="RunManager" selected="JUnit.TestAppliction2.testConditionOnBean">
     <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kataer.mall.common.util.JwtUtil" />
       <module name="common" />
@@ -628,7 +622,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAppliction2.testApplicationContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAppliction2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -636,9 +630,39 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TestAppliction2" />
-      <option name="METHOD_NAME" value="testApplicationContext" />
+      <option name="PACKAGE_NAME" value="com.kataer.mall.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.kataer.mall.demo.TestAppliction2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAppliction2.testCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kataer.mall.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kataer.mall.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.kataer.mall.demo.TestAppliction2" />
+      <option name="METHOD_NAME" value="testCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAppliction2.testConditionOnBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kataer.mall.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kataer.mall.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.kataer.mall.demo.TestAppliction2" />
+      <option name="METHOD_NAME" value="testConditionOnBean" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -656,35 +680,6 @@
       <option name="MAIN_CLASS_NAME" value="com.kataer.mall.demo.TestAppliction2" />
       <option name="METHOD_NAME" value="testImport" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAppliction2.testParamCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kataer.mall.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TestAppliction2" />
-      <option name="METHOD_NAME" value="testParamCheck" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kataer.mall.demo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kataer.mall.demo.test.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -723,22 +718,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.JwtUtil" />
-      <item itemvalue="JUnit.TestAppliction2.testApplicationContext" />
-      <item itemvalue="JUnit.TestAppliction2.testParamCheck" />
       <item itemvalue="JUnit.TestAppliction2.testImport" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.MallPortalApplication" />
       <item itemvalue="Spring Boot.WxMpServerApplication" />
-      <item itemvalue="Spring Boot.DemoApplication (1)" />
+      <item itemvalue="JUnit.TestAppliction2.testCondition" />
+      <item itemvalue="JUnit.TestAppliction2.testConditionOnBean" />
+      <item itemvalue="JUnit.TestAppliction2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAppliction2.testImport" />
+        <item itemvalue="JUnit.TestAppliction2.testConditionOnBean" />
+        <item itemvalue="JUnit.TestAppliction2" />
+        <item itemvalue="JUnit.TestAppliction2.testCondition" />
         <item itemvalue="Application.JwtUtil" />
-        <item itemvalue="Spring Boot.DemoApplication (1)" />
-        <item itemvalue="JUnit.TestAppliction2.testApplicationContext" />
-        <item itemvalue="JUnit.TestAppliction2.testParamCheck" />
+        <item itemvalue="JUnit.TestAppliction2.testImport" />
       </list>
     </recent_temporary>
   </component>
@@ -771,7 +766,8 @@
       <workItem from="1614063944249" duration="3357000" />
       <workItem from="1614252428441" duration="7844000" />
       <workItem from="1614302932039" duration="20423000" />
-      <workItem from="1614562072281" duration="48943000" />
+      <workItem from="1614562072281" duration="53850000" />
+      <workItem from="1614830377861" duration="20245000" />
     </task>
     <task id="LOCAL-00001" summary="1、测试模块&#10;2、okhttp学习">
       <created>1611228617967</created>
@@ -801,50 +797,64 @@
       <option name="project" value="LOCAL" />
       <updated>1614410041203</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1、redis和redisen配置&#10;2、gateway网关的使用&#10;3、网关GlobalFilter的使用">
+      <created>1614766016435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614766016435</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1、gateway学习">
+      <created>1614770304423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614770304423</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 17m 19s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2_testCondition - 2021.03.04 at 15h 05m 36s.xml">
+      <configuration name="TestAppliction2.testCondition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 23m 21s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2_testCondition - 2021.03.04 at 15h 13m 42s.xml">
+      <configuration name="TestAppliction2.testCondition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 26m 50s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2_testConditionOnBean - 2021.03.04 at 15h 29m 53s.xml">
+      <configuration name="TestAppliction2.testConditionOnBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 28m 03s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2_testConditionOnBean - 2021.03.04 at 15h 31m 00s.xml">
+      <configuration name="TestAppliction2.testConditionOnBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 31m 21s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2_testConditionOnBean - 2021.03.04 at 15h 32m 37s.xml">
+      <configuration name="TestAppliction2.testConditionOnBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 32m 45s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2_testConditionOnBean - 2021.03.04 at 15h 36m 36s.xml">
+      <configuration name="TestAppliction2.testConditionOnBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 37m 23s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2 - 2021.03.04 at 15h 37m 27s.xml">
+      <configuration name="TestAppliction2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 42m 31s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2 - 2021.03.04 at 15h 37m 52s.xml">
+      <configuration name="TestAppliction2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 51m 10s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2_testConditionOnBean - 2021.03.04 at 15h 54m 10s.xml">
+      <configuration name="TestAppliction2.testConditionOnBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAppliction2_testImport - 2021.03.02 at 19h 52m 55s.xml">
-      <configuration name="TestAppliction2.testImport" configurationId="JUnit" />
+    <history-entry file="TestAppliction2_testConditionOnBean - 2021.03.04 at 15h 54m 45s.xml">
+      <configuration name="TestAppliction2.testConditionOnBean" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191408000" />
+    <option name="totallyTimeSpent" value="216560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87644154" visible="true" weight="0.23987207" />
-      <window_info id="Structure" order="1" sideWeight="0.123558484" side_tool="true" visible="true" weight="0.23987207" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85509324" visible="true" weight="0.23987207" />
+      <window_info id="Structure" order="1" sideWeight="0.14490674" side_tool="true" visible="true" weight="0.23987207" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -853,8 +863,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32212582" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34164858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3167028" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.24403471" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -867,9 +877,9 @@
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.19956616" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1748401" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.30703625" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -926,7 +936,9 @@
     <MESSAGE value="1、mp模塊天機" />
     <MESSAGE value="1、添加redis依赖" />
     <MESSAGE value="1aop threadpool学习代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="1aop threadpool学习代码" />
+    <MESSAGE value="1、redis和redisen配置&#10;2、gateway网关的使用&#10;3、网关GlobalFilter的使用" />
+    <MESSAGE value="1、gateway学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、gateway学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,8 +955,36 @@
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/ResponseFilter.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserController.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -962,247 +1002,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/Claims.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/impl/DefaultClaims.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/impl/JwtMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/ResultBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="258" column="29" selection-start-line="258" selection-start-column="20" selection-end-line="258" selection-end-column="29" />
-          <folding>
-            <element signature="e#6732#6733#0" expanded="true" />
-            <element signature="e#6782#6783#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="196" column="20" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/FastJson2JsonRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1569#1570#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/PropertiesReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mp/src/main/java/com/kataer/mall/mp/builder/AbstractBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mp/src/main/java/com/kataer/mall/mp/builder/ImageBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mp/src/main/java/com/kataer/mall/mp/builder/TextBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mp/src/main/java/com/kataer/mall/mp/config/WxMpConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mp/src/main/java/com/kataer/mall/mp/config/WxMpProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson-spring-boot-starter/3.13.1/redisson-spring-boot-starter-3.13.1.jar!/org/redisson/spring/starter/RedissonAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsResultHandler2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedisConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/service/AspectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/aspect/ParamCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/aspect/ParamCheckAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/JWTUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/ConfigA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/TestAppliction2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="169" column="44" selection-start-line="169" selection-start-column="37" selection-end-line="169" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/BaseRedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1220,16 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1243,7 +1032,7 @@
     <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1267,10 +1056,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/RequestFilter.java">
+    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/RequestFilter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/org/springframework/http/MediaType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="272">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/org/springframework/web/server/ServerWebExchange.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/ResultBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedissonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1279,43 +1122,28 @@
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/annotation/Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="125" column="6" lean-forward="true" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
+        <state relative-caret-position="1734">
+          <caret line="125" column="6" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/filter/GlobalFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/gateway/filter/GlobalFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/MallPortalApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#840#841#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/util/JwtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="697">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1324,57 +1152,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/GatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+        <state relative-caret-position="204">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/autoconfig/ImportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/config/SpringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/Child.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/WindowsCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-sources.jar!/org/springframework/context/annotation/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" selection-start-line="40" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/LinuxCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" selection-start-line="8" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/MallPortalApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/condition/ConditionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test/java/com/kataer/mall/demo/TestAppliction2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/constrant/Constrant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsResultHandler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portal/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-136">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/ResponseFilter.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/AuthGlobalFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="-70">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#2921#2922#0" expanded="true" />
+            <element signature="e#2945#2946#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsController.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/RequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/kataer/mall/common/config/RedissonConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="559">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/filter/ResponseFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/config/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1383,8 +1361,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/kataer/mall/gateway/config/ValidUrlsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/goods/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/src/main/java/com/kataer/mall/portal/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="211" selection-start-line="211" selection-end-line="216" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/kataer/mall/demo/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1440,12 +1469,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mbg</last-edited>
+          <last-edited>test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.39425287" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

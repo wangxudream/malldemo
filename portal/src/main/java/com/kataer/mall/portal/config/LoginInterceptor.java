@@ -2,6 +2,7 @@ package com.kataer.mall.portal.config;
 
 import com.alibaba.fastjson.JSON;
 import com.kataer.mall.common.ResultBody;
+import com.kataer.mall.common.constrant.Constrant;
 import com.kataer.mall.common.model.UserVo;
 import com.kataer.mall.common.model.UserVoThreadLocal;
 import com.kataer.mall.common.util.JwtUtil;
@@ -21,14 +22,13 @@ import java.util.UUID;
 @Slf4j
 @Component
 public class LoginInterceptor implements HandlerInterceptor {
-    public static final String LOGIN_TOKEN_KEY = "X-PointsShop-Token";
 
     @Resource
     private JwtUtil jwtUtil;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        String token = request.getHeader(LOGIN_TOKEN_KEY);
+        String token = request.getHeader(Constrant.LOGIN_TOKEN_KEY);
         if (StringUtils.isEmpty(token)) {
             log.error("没有携带token,url:{}", request.getRequestURL());
             sendJsonMessage(response, JSON.toJSONString(ResultBody.unauthorized()));

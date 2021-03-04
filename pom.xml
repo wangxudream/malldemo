@@ -88,6 +88,12 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/e-iceblue/spire.pdf -->
+        <!--<dependency>-->
+            <!--<groupId>e-iceblue</groupId>-->
+            <!--<artifactId>spire.pdf</artifactId>-->
+            <!--<version>3.4.2</version>-->
+        <!--</dependency>-->
     </dependencies>
     <!--声明依赖，子项目需引入，用于控制子项目中依赖版本-->
     <dependencyManagement>
@@ -203,6 +209,12 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>com.e-iceblue</id>-->
+            <!--<url>http://repo.e-iceblue.cn/repository/maven-public/</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
 
     <build>
         <plugins>
