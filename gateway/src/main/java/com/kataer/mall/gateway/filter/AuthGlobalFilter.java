@@ -36,7 +36,6 @@ import java.nio.charset.StandardCharsets;
 @Component
 public class AuthGlobalFilter implements GlobalFilter, Ordered {
 
-
     @Resource
     private ValidUrlsProperties validUrlsProperties;
 

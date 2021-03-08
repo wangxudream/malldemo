@@ -3,6 +3,7 @@ package com.kataer.mall.gateway;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @ClassName GatewayApplication
@@ -10,6 +11,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @Author kataer
  * @Date 2021/1/24 16:07
  **/
+//@EnableSwagger2
 @EnableDiscoveryClient
 @SpringBootApplication
 public class GatewayApplication {

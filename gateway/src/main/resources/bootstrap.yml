@@ -16,7 +16,7 @@ spring:
         - id: mall-portal
           uri: lb://mall-portal
           predicates:
-            - Path=/portal/goods/**,/portal/user/**
+            - Path=/portal/goods/**,/portal/user/**,/portal/v2/api-docs
           filters:
             - StripPrefix=1
 ---

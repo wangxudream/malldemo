@@ -90,9 +90,9 @@
         </dependency>
         <!-- https://mvnrepository.com/artifact/e-iceblue/spire.pdf -->
         <!--<dependency>-->
-            <!--<groupId>e-iceblue</groupId>-->
-            <!--<artifactId>spire.pdf</artifactId>-->
-            <!--<version>3.4.2</version>-->
+        <!--<groupId>e-iceblue</groupId>-->
+        <!--<artifactId>spire.pdf</artifactId>-->
+        <!--<version>3.4.2</version>-->
         <!--</dependency>-->
     </dependencies>
     <!--声明依赖，子项目需引入，用于控制子项目中依赖版本-->
@@ -147,7 +147,7 @@
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
             </dependency>
-            <!-- mybatis-plus -->
+            <!-- mybatisplus-plus -->
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -157,6 +157,11 @@
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${mybatis-plus-generator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-extension</artifactId>
+                <version>3.4.0</version>
             </dependency>
             <!-- pagehelper -->
             <dependency>
@@ -209,12 +214,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <!--<repositories>-->
-        <!--<repository>-->
-            <!--<id>com.e-iceblue</id>-->
-            <!--<url>http://repo.e-iceblue.cn/repository/maven-public/</url>-->
-        <!--</repository>-->
-    <!--</repositories>-->
 
     <build>
         <plugins>
