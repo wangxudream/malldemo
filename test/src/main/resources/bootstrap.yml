@@ -3,10 +3,24 @@ server:
 spring:
   application:
     name: mall-test
-#  profiles:
-#    active: dev
-##test:
-#  test: aaa
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+          zk-nodes: localhost:2181
+          auto-create-topics: true
+      bindings:
+        stream_study_input:
+          binder: kafka
+          destination: stream_study
+          group: stream_study
+          content-type: text/plain
+        stream_study_output:
+          destination: stream_study
+          content-type: text/plain
+
+
 ---
 spring:
   profiles: dev

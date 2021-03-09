@@ -57,6 +57,8 @@
         <redis>2.2.5.RELEASE</redis>
         <redisson.version>3.13.1</redisson.version>
         <fastjson.version>1.2.70</fastjson.version>
+        <cloud.stream>3.0.3.RELEASE</cloud.stream>
+        <cloud.stream.kafka>3.0.3.RELEASE</cloud.stream.kafka>
     </properties>
     <!--引入包,子项目会自动引入-->
     <dependencies>
@@ -168,6 +170,17 @@
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper</artifactId>
                 <version>${pagehelper.version}</version>
+            </dependency>
+            <!--stream-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-stream</artifactId>
+                <version>${cloud.stream}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-stream-binder-kafka</artifactId>
+                <version>${cloud.stream.kafka}</version>
             </dependency>
             <!-- swagger2在线API文档 -->
             <dependency>
