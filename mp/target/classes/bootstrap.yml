@@ -1,0 +1,53 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: mall-mp
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+      config:
+        server-addr: http://localhost:8848
+        file-extension: yml
+        prefix: mall-mp
+wx:
+  mp:
+    useRedis: false
+    redisConfig:
+      host: 127.0.0.1
+      port: 6379
+    configs:
+      - appId: wx045adc111ef2df01 # 第一个公众号的appid
+        secret: 7f9fffa893d2c8999453d9adebc54b80 # 公众号的appsecret
+        token: 1234qwer! # 接口配置里的Token值
+        aesKey: 111 # 接口配置里的EncodingAESKey值
+      - appId: 2222 # 第二个公众号的appid，以下同上
+        secret: 1111
+        token: 111
+        aesKey: 111
+
+#wx:
+#  mp:
+#    useRedis: false
+#    redisConfig:
+#      host: 127.0.0.1
+#      port: 6379
+#    configs:
+#      - appId: 1111 # 第一个公众号的appid
+#        secret: 1111 # 公众号的appsecret
+#        token: 111 # 接口配置里的Token值
+#        aesKey: 111 # 接口配置里的EncodingAESKey值
+#      - appId: 2222 # 第二个公众号的appid，以下同上
+#        secret: 1111
+#        token: 111
+#        aesKey: 111
+---
+
+

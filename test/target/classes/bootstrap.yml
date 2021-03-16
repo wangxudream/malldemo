@@ -1,0 +1,37 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: mall-test
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+          zk-nodes: localhost:2181
+          auto-create-topics: true
+      bindings:
+        stream_study_input:
+          binder: kafka
+          destination: stream_study
+          group: stream_study
+          content-type: text/plain
+        stream_study_output:
+          destination: stream_study
+          content-type: text/plain
+
+
+---
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+      discovery:
+        server-addr: localhost:8848
+
+#        prefix: mall-test
+---
+

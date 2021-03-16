@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.kataer.mall.demo.autoconfig.Test,\
+  com.kataer.mall.demo.autoconfig.ImportTest

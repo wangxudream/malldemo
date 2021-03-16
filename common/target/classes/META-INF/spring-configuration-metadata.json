@@ -1,0 +1,50 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "com.kataer.mall.common.config.RedisConfigProperties",
+      "sourceType": "com.kataer.mall.common.config.RedisConfigProperties"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "com.kataer.mall.common.config.RedisConfigProperties$Cluster",
+      "sourceType": "com.kataer.mall.common.config.RedisConfigProperties",
+      "sourceMethod": "getCluster()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.cluster.nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.kataer.mall.common.config.RedisConfigProperties$Cluster"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "com.kataer.mall.common.config.RedisConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.kataer.mall.common.config.RedisConfigProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "com.kataer.mall.common.config.RedisConfigProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.String",
+      "sourceType": "com.kataer.mall.common.config.RedisConfigProperties"
+    },
+    {
+      "name": "spring.redis.use-my-cluster",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.kataer.mall.common.config.RedisConfigProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

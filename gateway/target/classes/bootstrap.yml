@@ -1,0 +1,36 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: mall-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: mall-test #路由ID
+          uri: http://localhost:8085  #断言匹配后的转发地址uir+path
+          predicates: #断言(Path After Before)
+            - Path=/test/hello/**
+        - id: mall-portal
+          uri: lb://mall-portal
+          predicates:
+            - Path=/portal/goods/**,/portal/user/**,/portal/v2/api-docs
+          filters:
+            - StripPrefix=1
+---
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        prefix: mall-gateway
+---
+
+
+

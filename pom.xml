@@ -15,6 +15,7 @@
         <module>test</module>
         <module>gateway</module>
         <module>mp</module>
+        <module>junit_learn</module>
     </modules>
 
     <parent>
