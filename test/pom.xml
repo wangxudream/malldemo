@@ -61,6 +61,11 @@
             <artifactId>okhttp</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.xuxueli/xxl-job-core -->
         <dependency>
             <groupId>com.xuxueli</groupId>
@@ -80,6 +85,11 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
